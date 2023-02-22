@@ -8,23 +8,26 @@ public class Solution21 {
       ListNode(int val) { this.val = val; }
       ListNode(int val, ListNode next) { this.val = val; this.next = next; }
   }
-    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-            if(list1==null) return list2;
-            if(list2==null) return list1;
-            ListNode dummy = new ListNode();
-            ListNode head = dummy;
-            while(list1!=null && list2!=null){
-                if(list1.val<=list2.val){
-                    head.next = list1;
-                    list1 = list1.next;
-                }else{
-                    head.next = list2;
-                    list2 = list2.next;
-                }
-                head = head.next;
-            }
-            head.next = list1==null? list2:list1;
-            return dummy.next;
+    public ListNode mergeTwoLists(ListNode head1, ListNode head2){
+        if(head1==null || head2==null){
+            return head1==null?head2:head1;
         }
+        ListNode head = head1.val<= head2.val? head1:head2;//GLOBAL head
+        ListNode cur1 = head.next;
+        ListNode cur2 = head==head1?head2:head1;
+        ListNode pre = head;
+        while(cur1!=null && cur2!=null){
+            if(cur1.val<=cur2.val){
+                pre.next = cur1;
+                cur1 = cur1.next;
+            }else{
+                pre.next = cur2;
+                cur2 = cur2.next;
+            }
+            pre = pre.next;
+        }
+        pre.next = cur1==null?cur2:cur1;
+        return head;
+    }
 }
 
