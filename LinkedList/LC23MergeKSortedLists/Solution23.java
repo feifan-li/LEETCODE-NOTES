@@ -1,4 +1,4 @@
-package LC23MergeKSortedLists;
+package LinkedList.LC23MergeKSortedLists;
 
 import java.util.PriorityQueue;
 

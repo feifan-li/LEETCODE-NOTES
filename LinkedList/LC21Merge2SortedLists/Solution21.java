@@ -1,4 +1,4 @@
-package LC21Merge2SortedLists;
+package LinkedList.LC21Merge2SortedLists;
 
 public class Solution21 {
      public class ListNode {
