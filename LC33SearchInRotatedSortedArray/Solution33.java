@@ -10,19 +10,20 @@ public class Solution33 {
         while(left<=right){
             int mid = left + (right-left)/2;
             if(nums[mid]==target) return mid;
-            if(nums[left]<=nums[mid]){
+            if(nums[left]<nums[mid]){
                 if(nums[left]<=target && nums[mid]>target){
                     right = mid-1;
                 }else{
                     left = mid+1;
                 }
-            }
-            if(nums[mid]<=nums[right]){
+            }else if(nums[left]>nums[mid]){
                 if(nums[mid]<target && target<=nums[right]){
                     left = mid+1;
                 }else{
                     right = mid-1;
                 }
+            }else{
+                left++;
             }
         }
         return -1;
