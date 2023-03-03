@@ -25,7 +25,7 @@ public class Solution98 {
     }
     public Info process(TreeNode x){
         if(x==null) {
-            return null;p
+            return null;
         }
         Info leftInfo = process(x.left);
         Info rightInfo = process(x.right);
