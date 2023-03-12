@@ -4,7 +4,7 @@ public class Solution1201 {
     public static int nthUglyNumber(int target, int a, int b, int c) {
         //binary search
         long left = (long)(Math.min(a,Math.min(b,c)));
-        long right = (long)Integer.MAX_VALUE;
+        long right = Math.min((long)target*(long)(Math.max(a,Math.max(b,c))),(long)2000000000);
         while(left<=right){
             long mid = left+(right-left)/2;
             long cur = getCntOfUglyNums(mid,a,b,c);
