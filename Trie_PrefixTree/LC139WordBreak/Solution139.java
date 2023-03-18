@@ -49,8 +49,10 @@ public class Solution139 {
         //opt[i] whether first i chars can be ...
         for(int i=1;i<=s.length();++i){
             for(int j=0;j<i;j++){
-                opt[i] = opt[j]&(wordTrie.contains(s.substring(j,i)));
-                if(opt[i]==true) break;
+                if(opt[j]&&(wordTrie.contains(s.substring(j,i)))){
+                    opt[i]=true;
+                    break;
+                }
             }
         }
         return opt[s.length()];
