@@ -30,7 +30,7 @@ public class Solution958 {
             }
             if(l!=null) queue.add(l);
             if(r!=null) queue.add(r);
-            if(l==null || r==null) leaf = true;
+            if(l==null || r==null) leaf = true;// Note: ||
         }
         return true;
     }
