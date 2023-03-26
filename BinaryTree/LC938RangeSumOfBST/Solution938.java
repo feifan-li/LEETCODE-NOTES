@@ -1,4 +1,4 @@
-package LC938RangeSumOfBST;
+package BinaryTree.LC938RangeSumOfBST;
 
 public class Solution938 {
     public class TreeNode {
