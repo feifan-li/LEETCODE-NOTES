@@ -1,4 +1,4 @@
-package LC174DungeonGame;
+package DynamicProgramming.LC174DungeonGame;
 
 public class Solution174 {
     /*Return the knight's minimum initial health so that he can rescue the princess.*/
