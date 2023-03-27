@@ -82,6 +82,7 @@ public class Solution912_MergeSort_QuickSort {
     public void quickSort(int[] arr,int L,int R){
         //recursive quick sort
         if(L>=R) return;
+        swap(arr,L+(int)(Math.random()*(R-L+1)),R);
         int[] equalRange = partition(arr,L,R);
         quickSort(arr,L,equalRange[0]-1);
         quickSort(arr,equalRange[1]+1,R);
