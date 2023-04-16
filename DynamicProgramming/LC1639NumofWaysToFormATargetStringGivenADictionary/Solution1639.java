@@ -15,9 +15,9 @@ public class Solution1639 {
         dp[0][0] = 1;
         for(int i = 1;i <= m+1;++i){
             for(int j = 1;j <= k;++j){
-                if(i<m+1) dp[i][j] = (dp[i][j] + (dp[i-1][j-1]*dict[j-1][target.charAt(i-1)-'a'])%MOD)%MOD;
-                //form first i-1 chars, use first j-1 col or j col
-                dp[i-1][j] = (dp[i-1][j] + dp[i-1][j-1]%MOD)%MOD;
+                if(i<m+1) dp[i][j] = (dp[i][j] + (dp[i-1][j-1]*dict[j-1][target.charAt(i-1)-'a']));
+                //form first i-1 chars, use first j-1 or j col
+                dp[i-1][j] = (dp[i-1][j] + dp[i-1][j-1])%MOD;
             }
         }
         return (int)dp[m][k]%MOD;
