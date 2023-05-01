@@ -18,7 +18,8 @@ public class Solution1697 {
             }
             public int find(int x){
                 while(x!=parent[x]){
-                    x = parent[parent[x]];
+                    parent[x] = parent[parent[x]];
+                    x = parent[x];
                 }
                 return x;
             }
