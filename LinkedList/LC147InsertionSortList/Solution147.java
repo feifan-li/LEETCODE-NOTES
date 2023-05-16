@@ -29,15 +29,14 @@ public class Solution147 {
                 p = pNext;
                 continue;
             }
-            ListNode q = head, qNext = null;
+            ListNode q = head;
             while(q!=pPrev){
-                qNext = q.next;
-                if(q.val<=p.val && p.val<=qNext.val){
+                if(q.val<=p.val && p.val<=q.next.val){
                     p.next = q.next;
                     q.next = p;
                     break;
                 }
-                q = qNext;
+                q = q.next;
             }
             p = pNext;
         }
