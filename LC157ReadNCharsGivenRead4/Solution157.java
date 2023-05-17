@@ -10,7 +10,7 @@ public class Solution157 extends Reader4{
         int p = 0;//next empty index of buf
         char[] buf4 = new char[4];
         int num4 = 0;//actual number of chars read by read4()
-        while(p<=n){
+        while(p<n){
             num4 = read4(buf4);
             if(num4==0) return p;
             int remaining = n-p;//remaining to read by read()
