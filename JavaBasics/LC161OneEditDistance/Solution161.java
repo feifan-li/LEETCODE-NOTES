@@ -1,4 +1,4 @@
-package LC161OneEditDistance;
+package JavaBasics.LC161OneEditDistance;
 
 public class Solution161 {
     public boolean isOneEditDistance(String s, String t) {
