@@ -16,6 +16,7 @@ public class Solution173 {
       }
     }
     class BSTIterator {
+        //basic idea here is lazy-loading, i.e., next() is implemented in an on-demand manner
         public Stack<TreeNode> stack;
         public BSTIterator(TreeNode root) {
             this.stack = new Stack<>();
@@ -33,6 +34,7 @@ public class Solution173 {
         }
 
         private void helper(TreeNode root){
+            //only the top TreeNode is useful
             while(root!=null){
                 stack.push(root);
                 root = root.left;
