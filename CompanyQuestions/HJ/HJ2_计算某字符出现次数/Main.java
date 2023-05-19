@@ -2,7 +2,7 @@ package CompanyQuestions.HJ.HJ2_计算某字符出现次数;
 
 import java.util.HashMap;
 import java.util.Scanner;
-
+/**https://www.nowcoder.com/exam/oj/ta?tpId=37**/
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
