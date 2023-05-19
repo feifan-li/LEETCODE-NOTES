@@ -1,4 +1,4 @@
-package CompanyQuestions.HJ.HJ3;
+package CompanyQuestions.HJ.HJ3_明明的随机数;
 
 import java.util.Scanner;
 import java.util.TreeSet;
