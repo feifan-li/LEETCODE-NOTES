@@ -1,4 +1,4 @@
-package LC204CountPrimes;
+package PrimeNumber.LC204CountPrimes;
 import java.util.Arrays;
 
 //Given an integer n, return the number of prime numbers that are strictly less than n.
