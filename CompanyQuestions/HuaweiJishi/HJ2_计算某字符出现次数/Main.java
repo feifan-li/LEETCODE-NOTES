@@ -1,4 +1,4 @@
-package CompanyQuestions.HJ.HJ2_计算某字符出现次数;
+package CompanyQuestions.HuaweiJishi.HJ2_计算某字符出现次数;
 
 import java.util.HashMap;
 import java.util.Scanner;

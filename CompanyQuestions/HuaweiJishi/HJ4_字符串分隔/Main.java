@@ -1,4 +1,4 @@
-package CompanyQuestions.HJ.HJ4_字符串分隔;
+package CompanyQuestions.HuaweiJishi.HJ4_字符串分隔;
 
 import java.util.Arrays;
 import java.util.Scanner;

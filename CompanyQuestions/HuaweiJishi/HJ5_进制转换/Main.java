@@ -1,4 +1,4 @@
-package CompanyQuestions.HJ.HJ5_进制转换;
+package CompanyQuestions.HuaweiJishi.HJ5_进制转换;
 
 import java.util.Scanner;
 

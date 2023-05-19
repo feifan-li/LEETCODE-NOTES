@@ -1,4 +1,4 @@
-package CompanyQuestions.HJ.HJ3_明明的随机数;
+package CompanyQuestions.HuaweiJishi.HJ3_明明的随机数;
 
 import java.util.Scanner;
 

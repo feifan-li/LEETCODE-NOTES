@@ -1,4 +1,4 @@
-package CompanyQuestions.HJ.HJ1_字符串最后一个单词的长度;
+package CompanyQuestions.HuaweiJishi.HJ1_字符串最后一个单词的长度;
 
 import java.util.Scanner;
 /**https://www.nowcoder.com/exam/oj/ta?tpId=37**/
