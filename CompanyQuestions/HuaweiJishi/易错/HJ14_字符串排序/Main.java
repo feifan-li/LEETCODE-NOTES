@@ -9,6 +9,8 @@ public class Main {
         int n = in.nextInt();
         String[] strs = new String[n];
         for(int i=0;i<n;++i){
+            /**strs[i] = in.nextLine();
+             * 会导致少传入一个字符串，因为nextLine()接收空格和回车，而next()不接受空格和回车**/
             strs[i] = in.next();
         }
         Arrays.sort(strs);
