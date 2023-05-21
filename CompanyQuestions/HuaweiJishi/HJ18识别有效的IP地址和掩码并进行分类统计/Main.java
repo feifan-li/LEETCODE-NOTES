@@ -1,4 +1,4 @@
-package CompanyQuestions.HuaweiJishi.HJ18;
+package CompanyQuestions.HuaweiJishi.HJ18识别有效的IP地址和掩码并进行分类统计;
 
 import java.util.Scanner;
 
