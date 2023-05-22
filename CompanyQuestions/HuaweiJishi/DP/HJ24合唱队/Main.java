@@ -1,4 +1,4 @@
-package CompanyQuestions.HuaweiJishi.HJ24合唱队;
+package CompanyQuestions.HuaweiJishi.DP.HJ24合唱队;
 
 import java.util.Scanner;
 
