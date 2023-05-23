@@ -1,4 +1,4 @@
-package CompanyQuestions.HuaweiJishi.DP.最长回文子串.HJ32;
+package CompanyQuestions.HuaweiJishi.DP.最长回文子串.HJ32密码截取;
 
 import java.util.Scanner;
 
