@@ -1,4 +1,4 @@
-package CompanyQuestions.HuaweiJishi.匈牙利算法.HJ28;
+package CompanyQuestions.HuaweiJishi.匈牙利算法.HJ28_素数伴侣;
 
 import java.util.ArrayList;
 import java.util.Arrays;
