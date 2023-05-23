@@ -1,4 +1,4 @@
-package CompanyQuestions.HuaweiJishi.DP.HJ24合唱队;
+package CompanyQuestions.HuaweiJishi.DP.最长递增子序列.HJ24合唱队;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package CompanyQuestions.HuaweiJishi.Tricky.HJ6_质数因子;
+package CompanyQuestions.HuaweiJishi.质数.HJ6_质数因子;
 
 import java.util.Scanner;
 

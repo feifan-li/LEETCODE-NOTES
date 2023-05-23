@@ -1,4 +1,4 @@
-package CompanyQuestions.HuaweiJishi.DP.Knapsack.HJ16购物单;
+package CompanyQuestions.HuaweiJishi.DP.背包问题.HJ16购物单;
 
 import java.util.*;
 
