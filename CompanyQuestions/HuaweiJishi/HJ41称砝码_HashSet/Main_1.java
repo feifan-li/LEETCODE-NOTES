@@ -1,4 +1,4 @@
-package CompanyQuestions.HuaweiJishi.HJ41称砝码;
+package CompanyQuestions.HuaweiJishi.HJ41称砝码_HashSet;
 
 import java.util.ArrayList;
 import java.util.HashSet;
