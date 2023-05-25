@@ -1,4 +1,4 @@
-package CompanyQuestions.HuaweiJishi.链表.HJ48;
+package CompanyQuestions.HuaweiJishi.链表.HJ48从单向链表中删除指定值的节点;
 
 import java.util.ArrayList;
 import java.util.Scanner;
