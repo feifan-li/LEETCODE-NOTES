@@ -1,4 +1,4 @@
-package CompanyQuestions.HuaweiJishi.HJ96表示数字;
+package CompanyQuestions.HuaweiJishi.易错.HJ96表示数字;
 
 import java.util.Scanner;
 
