@@ -1,4 +1,4 @@
-package CompanyQuestions.HuaweiJishi.HJ56;
+package CompanyQuestions.HuaweiJishi.HJ56完全数计算;
 
 import java.util.Scanner;
 
