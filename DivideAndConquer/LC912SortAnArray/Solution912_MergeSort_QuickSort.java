@@ -1,4 +1,4 @@
-package LC912SortAnArray;
+package DivideAndConquer.LC912SortAnArray;
 
 import java.util.Stack;
 
