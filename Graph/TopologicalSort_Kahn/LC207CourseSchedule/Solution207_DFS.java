@@ -1,9 +1,9 @@
-package Graph.LC207CourseSchedule;
+package Graph.TopologicalSort_Kahn.LC207CourseSchedule;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Main {
+public class Solution207_DFS {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         ArrayList<ArrayList<Integer>> graph = new ArrayList<>();//directed
         for(int i=0;i<numCourses;++i)   graph.add(new ArrayList<Integer>());
