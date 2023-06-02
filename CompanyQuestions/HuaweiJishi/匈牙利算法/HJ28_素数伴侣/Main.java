@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class  Main {
     public static class Info{
         public ArrayList<Integer> potentialPartner;//should not be modified once generated
         public ArrayList<Boolean> visited;
