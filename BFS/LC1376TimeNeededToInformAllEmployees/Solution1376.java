@@ -1,6 +1,7 @@
 package BFS.LC1376TimeNeededToInformAllEmployees;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.Queue;
 
 public class Solution1376 {
