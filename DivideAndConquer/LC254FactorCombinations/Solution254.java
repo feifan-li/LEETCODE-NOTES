@@ -1,4 +1,4 @@
-package LC254FactorCombinations;
+package DivideAndConquer.LC254FactorCombinations;
 
 import java.util.ArrayList;
 import java.util.Arrays;
