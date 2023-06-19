@@ -7,6 +7,7 @@ public class Solution2328 {
     public int countPaths(int[][] grid) {
         int m = grid.length, n = grid[0].length;
         dp = new int[m][n];//dp[i][j]: number of strictly increasing paths ending with grid[i][j]
+                            //若是starting with grid[i][j],需要处理重复路径的问题
         int ans = 0;
         for(int i=0;i<m;++i){
             for(int j=0;j<n;++j){
