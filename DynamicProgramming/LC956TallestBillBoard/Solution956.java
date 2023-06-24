@@ -8,7 +8,7 @@ public class Solution956 {
     public int tallestBillboard(int[] rods) {
         int n = rods.length;
         if(n<=1)    return 0;
-        HashMap<Integer,Integer> dp = new HashMap<>();//diff->highest support
+        HashMap<Integer,Integer> dp = new HashMap<>();//diff between taller and shorter->highest support
         dp.put(0,0);
         for(int i=0;i<n;++i){
             //if we're not welding new rod
