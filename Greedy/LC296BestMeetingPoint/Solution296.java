@@ -10,16 +10,12 @@ public class Solution296 {
         ArrayList<Integer> ylist = new ArrayList<>();
         for(int i=0;i<grid.length;++i){
             for(int j=0;j<grid[0].length;++j){
-                if(grid[i][j]==1){
-                    xlist.add(i);
-                }
+                if(grid[i][j]==1)   xlist.add(i);
             }
         }
         for(int j=0;j<grid[0].length;++j){
             for(int i=0;i<grid.length;++i){
-                if(grid[i][j]==1){
-                    ylist.add(j);
-                }
+                if(grid[i][j]==1)   ylist.add(j);
             }
         }
         return min(xlist)+min(ylist);
