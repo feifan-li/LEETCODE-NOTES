@@ -1,4 +1,4 @@
-package LC2462TotalCostToHireKWorkers;
+package PriorityQueue.LC2462TotalCostToHireKWorkers;
 
 import java.util.PriorityQueue;
 
