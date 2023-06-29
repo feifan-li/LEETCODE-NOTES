@@ -1,5 +1,7 @@
 package BFS.LC864ShortestPathToGetAllKeys;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -22,7 +24,7 @@ public class Solution864 {
                 }
             }
         }
-        Queue<int[]> q = new LinkedList<>();
+        Deque<int[]> q = new ArrayDeque<>();
         q.offer(new int[]{start[0],start[1],0,0});//[row, column, key state, distance]
         boolean[][][] visited = new boolean[allKeys+1][m][n];
         visited[0][start[0]][start[1]] = true;
