@@ -22,4 +22,19 @@ public class Solution1371 {
     public boolean isVowel(char c){
         return c=='a' || c=='e' || c=='i' || c=='o' || c=='u';
     }
+    /**
+     Input: A string
+     Output: The length of the longest substring where each kind of vowel appear even times
+     Need to Clarify:
+        1) What is the minimum and maximum length of input string?
+        2) Does the input string contains uppercase vowels?
+     Solution:
+        Intuition1: even number add or minus even number is still even, odd number add or minus odd number will become even.
+        Therefore, we don't need to consider the exact counts of each vowel, only the evenness or oddness matters;
+        Further, we can iterate through every index i to see the longest required substring that ends with i, by checking the evenness and oddness of this substring;
+
+        Intuition2: once we know the evenness and oddness of every substring s[0,i], i=0,...,s.len-1, we can easily know the evenness and oddness
+        of every substring.
+        Therefore, we can keep the states of substrings s[0,i], represented by 5 bits is sufficient;
+     **/
 }
