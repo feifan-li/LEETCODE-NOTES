@@ -1,4 +1,4 @@
-package LC336PalindromePairs;
+package Trie_PrefixTree.LC336PalindromePairs;
 
 import java.util.ArrayList;
 import java.util.Arrays;
