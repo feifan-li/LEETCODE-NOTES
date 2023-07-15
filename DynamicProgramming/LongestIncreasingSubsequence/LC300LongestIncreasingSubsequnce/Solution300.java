@@ -1,9 +1,9 @@
-package DynamicProgramming.LC300LongestIncreasingSubsequnce;
+package DynamicProgramming.LongestIncreasingSubsequence.LC300LongestIncreasingSubsequnce;
 
 public class Solution300 {
     public int lengthOfLIS(int[] nums) {
         int n = nums.length;
-        int[] dp = new int[n];//dp[i]: a strictly increasing seq of length i+1 ending with dp[i]
+        int[] dp = new int[n];//a strictly increasing seq of length i+1 ending with dp[i]
         int right = 0;
         for(int i=0;i<n;++i){
             int val = nums[i];
