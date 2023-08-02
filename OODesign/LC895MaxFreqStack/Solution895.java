@@ -1,8 +1,7 @@
-package LC895MaxFreqStack;
+package OODesign.LC895MaxFreqStack;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.LinkedList;
 
 public class Solution895 {
     static class FreqStack {
