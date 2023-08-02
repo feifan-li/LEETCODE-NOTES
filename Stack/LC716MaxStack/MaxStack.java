@@ -19,8 +19,7 @@ class MaxStack {
     }
 
     public int pop() {
-        int x = stack.get(stack.lastKey());
-        sorted.remove(new int[]{x,stack.lastKey()});
+        sorted.remove(new int[]{stack.get(stack.lastKey()),stack.lastKey()});
         return stack.remove(stack.lastKey());
     }
 
