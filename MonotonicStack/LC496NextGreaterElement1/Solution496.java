@@ -8,18 +8,15 @@ import java.util.Stack;
 public class Solution496 {
     public static int[] nextGreaterElement(int[] nums1, int[] nums2) {
         int[] ans = new int[nums1.length];
+        int[] s = new int[nums2.length];//monotnic decreasing stack
+        int top = -1;
         Map<Integer,Integer> map = new HashMap<>();
-        Stack<Integer> s = new Stack<>();
         for(int i=nums2.length-1;i>=0;--i){
-            while(!s.isEmpty() && s.peek()<=nums2[i]){
-                s.pop();
-            }
-            map.put(nums2[i],(s.isEmpty()?-1:s.peek()));
-            s.push(nums2[i]);
+            while(top>=0 && s[top]<=nums2[i])   top--;
+            map.put(nums2[i],(top==-1?-1:s[top]));
+            s[++top] = nums2[i];
         }
-        for(int i=0;i<nums1.length;++i){
-            ans[i] = map.get(nums1[i]);
-        }
+        for(int i=0;i<nums1.length;++i) ans[i] = map.get(nums1[i]);
         return ans;
     }
 
