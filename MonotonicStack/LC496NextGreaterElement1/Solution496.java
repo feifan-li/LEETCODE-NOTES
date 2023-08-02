@@ -8,7 +8,7 @@ import java.util.Stack;
 public class Solution496 {
     public static int[] nextGreaterElement(int[] nums1, int[] nums2) {
         int[] ans = new int[nums1.length];
-        int[] s = new int[nums2.length];//monotnic decreasing stack
+        int[] s = new int[nums2.length];//monotonic decreasing stack
         int top = -1;
         Map<Integer,Integer> map = new HashMap<>();
         for(int i=nums2.length-1;i>=0;--i){
