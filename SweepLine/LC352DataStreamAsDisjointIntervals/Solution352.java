@@ -22,11 +22,17 @@ public class Solution352 {
             if(low!=null && low[1]+1==value && high!=null && value+1==high[0]){
                 low[1] = high[1];
                 set.remove(high);
-            }else if(low!=null && low[1]+1==value){
+            }
+            //if connect low
+            else if(low!=null && low[1]+1==value){
                 low[1] = value;
-            }else if(high!=null && value+1==high[0]){
+            }
+            //if connect high
+            else if(high!=null && value+1==high[0]){
                 high[0] = value;
-            }else{
+            }
+            //if already not connected with any
+            else{
                 set.add(interval);
             }
         }
