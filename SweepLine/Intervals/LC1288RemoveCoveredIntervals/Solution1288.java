@@ -6,8 +6,7 @@ import java.util.Arrays;
 //Return the number of remaining intervals.
 public class Solution1288 {
     public static int removeCoveredIntervals(int[][] intervals) {
-        //interval can only be covered by its previous interval
-        Arrays.sort(intervals,(a,b)->a[0]==b[0]? b[1]-a[1]:a[0]-b[0]);
+        Arrays.sort(intervals,(a,b)->a[0]==b[0]? b[1]-a[1]:a[0]-b[0]);//保证只有index小的可以覆盖index大的
         int count = 0,end = 0;
         for(int[] i:intervals){
             if(end<i[1]){
