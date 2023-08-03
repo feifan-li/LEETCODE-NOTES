@@ -1,4 +1,4 @@
-package SweepLine.LC352DataStreamAsDisjointIntervals;
+package SweepLine.Intervals.LC352DataStreamAsDisjointIntervals;
 
 import java.util.ArrayList;
 import java.util.List;
