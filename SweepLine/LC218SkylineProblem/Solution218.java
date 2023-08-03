@@ -1,26 +1,26 @@
 package SweepLine.LC218SkylineProblem;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class Solution218 {
+    //sweep line
     public static List<List<Integer>> getSkyline(int[][] buildings) {
         List<List<Integer>> res = new ArrayList<>();
-        List<int[]> points = new ArrayList<>();
-        for(int[] building:buildings){
-            points.add(new int[]{building[0],-building[2]});
-            points.add(new int[]{building[1],building[2]});
+        int[][] points = new int[buildings.length*2][2];
+        for(int i=0;i<buildings.length;++i){
+            points[i*2][0] = buildings[i][0];
+            points[i*2][1] = buildings[i][2];
+            points[i*2+1][0] = buildings[i][1];
+            points[i*2+1][1] = -buildings[i][2];
         }
-        Collections.sort(points,(a, b)->a[0]==b[0]?a[1]-b[1]:a[0]-b[0]);
+        Arrays.sort(points,(a, b)->a[0]==b[0]?b[1]-a[1]:a[0]-b[0]);
         //a[0]==b[0]: new building appears before old building
-        PriorityQueue<Integer> height = new PriorityQueue<>((a, b)->b-a);//max-heap
+        PriorityQueue<Integer> height = new PriorityQueue<>((a,b)->b-a);//max-heap
         height.offer(0);
         int preMax = 0;
         for(int[] p:points){
-            if(p[1]<0) height.offer(-p[1]);//add new building
-            else height.remove(p[1]);//remove building
+            if(p[1]>0) height.offer(p[1]);//add new building
+            else height.remove(-p[1]);//remove building
             int curMax = height.peek();
             if(preMax!=curMax){//最大高度发生变化时 发现了新的key point
                 res.add(List.of(p[0],curMax));
