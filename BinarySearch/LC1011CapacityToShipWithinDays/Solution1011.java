@@ -1,4 +1,4 @@
-package LC1011CapacityToShipWithinDays;
+package BinarySearch.LC1011CapacityToShipWithinDays;
 
 import java.util.Arrays;
 import java.util.Stack;
