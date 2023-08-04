@@ -1,4 +1,4 @@
-package LC643MaximumAverageSubarray;
+package PrefixSum.LC643MaximumAverageSubarray;
 
 public class Solution643 {
     public double findMaxAverage(int[] nums, int k) {
