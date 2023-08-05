@@ -1,4 +1,4 @@
-package LC238ProductofArrayExceptSelf;
+package PrefixSum.LC238ProductofArrayExceptSelf;
 
 public class Solution238 {
     public int[] productExceptSelf(int[] nums) {
