@@ -1,18 +1,20 @@
-package Trie_PrefixTree;
+package Trie_PrefixTree.LC1804ImplementTrieII_PrefixTree;
 
-public class Solution1804_Trie_1 {
+import java.util.HashMap;
+
+public class Solution1804_Trie_2 {
     class Node {
         int pass;
         int end;
-        Node[] nexts;
+        HashMap<Integer,Node> nexts;
         Node(){
             pass = 0;
             end = 0;
-            nexts = new Node[26];
+            nexts = new HashMap<>();
         }
     }
     private Node root;
-    public Solution1804_Trie_1() {
+    public Solution1804_Trie_2() {
         root = new Node();
     }
 
@@ -22,11 +24,11 @@ public class Solution1804_Trie_1 {
         node.pass++;
         int path = 0;
         for(int i=0;i<str.length;i++){
-            path = str[i]-'a';
-            if(node.nexts[path]==null){
-                node.nexts[path] = new Node();
+            path = (int)str[i];
+            if(!node.nexts.containsKey(path)){
+                node.nexts.put(path,new Node());
             }
-            node = node.nexts[path];
+            node = node.nexts.get(path);
             node.pass++;
         }
         node.end++;
@@ -37,9 +39,9 @@ public class Solution1804_Trie_1 {
         Node node = root;
         int path = 0;
         for(int i=0;i<str.length;++i){
-            path = str[i]-'a';
-            if(node.nexts[path]==null) return 0;
-            node = node.nexts[path];
+            path = (int)str[i];
+            if(!node.nexts.containsKey(path)) return 0;
+            node = node.nexts.get(path);
         }
         return node.end;
     }
@@ -49,9 +51,9 @@ public class Solution1804_Trie_1 {
         Node node = root;
         int path = 0;
         for(int i=0;i<str.length;++i){
-            path = str[i]-'a';
-            if(node.nexts[path]==null) return 0;
-            node = node.nexts[path];
+            path = (int)str[i];
+            if(!node.nexts.containsKey(path)) return 0;
+            node = node.nexts.get(path);
         }
         return node.pass;
     }
@@ -63,12 +65,12 @@ public class Solution1804_Trie_1 {
             node.pass--;
             int path = 0;
             for(int i=0;i<str.length;++i){
-                path = str[i]-'a';
-                if(--node.nexts[path].pass == 0){
-                    node.nexts[path] = null;
+                path = (int)str[i];
+                if(--node.nexts.get(path).pass == 0){
+                    node.nexts.remove(path);
                     return;
                 }
-                node = node.nexts[path];
+                node = node.nexts.get(path);
             }
             node.end--;
         }
