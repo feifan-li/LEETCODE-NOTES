@@ -1,4 +1,4 @@
-package SubArraySum.LC560SubArraySumEqualsK;
+package PrefixSum.SubArraySum.LC560SubArraySumEqualsK;
 
 import java.util.HashMap;
 

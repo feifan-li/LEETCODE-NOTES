@@ -1,4 +1,4 @@
-package SubArraySum.LC974SubArraySumsDivisibleByK;
+package PrefixSum.SubArraySum.LC974SubArraySumsDivisibleByK;
 
 import java.util.HashMap;
 
