@@ -1,4 +1,4 @@
-package DynamicProgramming.LC2448MinCostToMakeArrayEqual;
+package PrefixSum.LC2448MinCostToMakeArrayEqual;
 
 import java.util.Arrays;
 
@@ -11,7 +11,7 @@ public class Solution2448 {
             arr[i][0] = nums[i];
             arr[i][1] = cost[i];
         }
-        Arrays.sort(arr,(a, b)->(a[0]-b[0]));
+        Arrays.sort(arr,(a,b)->(a[0]-b[0]));//sorted by nums
         long sum = 0;
         long[] costSum = new long[n];
         costSum[0] = arr[0][1];
@@ -19,11 +19,14 @@ public class Solution2448 {
             costSum[i] = costSum[i-1] + arr[i][1];
             sum += 1L*arr[i][1]*(arr[i][0] - arr[0][0]);
         }
-        long ans = sum;
+        long ans = sum;//sum: total cost to make all elements in `nums` equal to nums[0]
         for(int i=0;i<n-1;++i){
             long delta = arr[i+1][0] - arr[i][0];
+            //elements at or after i+1 previously used operations more than they need, need to give back
             sum -= delta*(costSum[n-1]-costSum[i]);
+            //elements before i+1 need more operations than they've used
             sum += delta*costSum[i];
+            //sum: total cost to make all elements in `nums` equal to nums[i+1]
             ans = Math.min(ans,sum);
         }
         return ans;
