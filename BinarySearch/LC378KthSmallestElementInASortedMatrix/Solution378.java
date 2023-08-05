@@ -13,6 +13,7 @@ public class Solution378 {
         return countLessThan(matrix,right)==k-1?right:left;
     }
     public int countLessThan(int[][] matrix,int target){
+        //O(n)
         int cnt = 0, i=matrix.length-1, j=0;
         while(i>=0 && j<matrix[0].length){
             if(matrix[i][j]<target){
