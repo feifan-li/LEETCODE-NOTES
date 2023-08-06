@@ -2,7 +2,7 @@ package DynamicProgramming.LC920NumberOfMusicPlaylists;
 
 import java.util.Arrays;
 
-public class Solution920 {
+public class Solution920_up_bottom {
     public int MOD = 1_000_000_007;
     public long[][] dp;
     public int numMusicPlaylists(int n, int goal, int k) {
