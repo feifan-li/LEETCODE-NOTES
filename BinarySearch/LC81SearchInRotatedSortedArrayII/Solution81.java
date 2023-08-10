@@ -1,4 +1,4 @@
-package LC81SearchInRotatedSortedArrayII;
+package BinarySearch.LC81SearchInRotatedSortedArrayII;
 
 public class Solution81 {
     public static boolean search(int[] nums, int target) {
