@@ -50,7 +50,7 @@ public class Solution1489 {
         for(int i=0;i<edges.length;++i){
             edgesWithId.add(new int[]{i,edges[i][0],edges[i][1],edges[i][2]});
         }
-        Collections.sort(edgesWithId,(a, b)->(a[3]-b[3]));//sort edges by weight increasingly
+        Collections.sort(edgesWithId,(a,b)->(a[3]-b[3]));//sort edges by weight increasingly
         ArrayList<int[]> MST = Kruskals(n,edgesWithId,new int[]{-1,0,0,0},new int[]{-1,0,0,0});
         int weight = weightOfMST(MST);
         //only edges in MST can be critical
