@@ -1,4 +1,4 @@
-package LC459RepeatedSubstringPattern;
+package KMP.LC459RepeatedSubstringPattern;
 
 public class Solution459 {
     public boolean repeatedSubstringPattern(String s) {
