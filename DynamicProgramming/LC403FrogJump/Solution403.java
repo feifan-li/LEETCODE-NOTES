@@ -9,7 +9,7 @@ public class Solution403 {
         if(stones[1]!=1)    return false;
         if(stones.length<=2)    return true;
         for(int i=0;i<stones.length;++i)    map.put(stones[i],i);
-        dp = new boolean[stones.length][2002];
+        dp = new boolean[stones.length][stones.length+5];
         solve(stones,1,1);
         for(int k=0;k<dp[stones.length-1].length;++k){
             if(dp[stones.length-1][k])  return true;
