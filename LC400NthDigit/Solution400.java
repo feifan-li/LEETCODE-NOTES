@@ -11,7 +11,7 @@ public class Solution400 {
             count *= 10;
             start *= 10;
         }
-        start += (n - 1)/len;
-        return Long.toString(start).charAt((n - 1) % len) - '0';
+        start += (n - 1)/len;//第几个数
+        return Long.toString(start).charAt((n - 1) % len) - '0';//的第几位
     }
 }
