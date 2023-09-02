@@ -1,4 +1,4 @@
-package LC54SpiralMatrix;
+package Matrix.LC54SpiralMatrix;
 
 import java.util.ArrayList;
 import java.util.List;

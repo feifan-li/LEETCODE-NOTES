@@ -1,4 +1,4 @@
-package LC48RotateImage;
+package Matrix.LC48RotateImage;
 
 public class Solution48 {
     public static void rotate(int[][] matrix) {
