@@ -1,4 +1,4 @@
-package LC867TransposeMatrix;
+package Matrix.LC867TransposeMatrix;
 
 public class Solution867 {
     public int[][] transpose(int[][] matrix) {
