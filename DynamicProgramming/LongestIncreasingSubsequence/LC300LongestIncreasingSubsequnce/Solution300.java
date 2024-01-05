@@ -1,10 +1,11 @@
 package DynamicProgramming.LongestIncreasingSubsequence.LC300LongestIncreasingSubsequnce;
 
 public class Solution300 {
+    //poker piles
     public int lengthOfLIS(int[] nums) {
         int n = nums.length;
         int[] dp = new int[n];//a strictly increasing seq of length i+1 ending with dp[i]
-        int right = 0;
+        int right = 0;//length
         for(int i=0;i<n;++i){
             int val = nums[i];
             int id = searchLeftMostGreaterOrEqual(dp,0,right,val);
