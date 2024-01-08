@@ -1,4 +1,4 @@
-package BinaryTree.LC109ConvertSortedListToBST;
+package BinaryTree_and_BST.LC109ConvertSortedListToBST;
 
 public class Solution109 {
 

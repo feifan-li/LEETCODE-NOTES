@@ -1,4 +1,4 @@
-package BinaryTree.LC98ValidateBinarySearchTree;
+package BinaryTree_and_BST.LC98ValidateBinarySearchTree;
 
 public class Solution98 {
       public class TreeNode {

@@ -1,4 +1,4 @@
-package BinaryTree.LC366FindLeavesOfBinaryTree;
+package BinaryTree_and_BST.LC366FindLeavesOfBinaryTree;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package BinaryTree.LC199BinaryTreeRightSideView;
+package BinaryTree_and_BST.LC199BinaryTreeRightSideView;
 
 import java.util.ArrayList;
 import java.util.List;

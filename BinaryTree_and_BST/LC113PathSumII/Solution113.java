@@ -1,4 +1,4 @@
-package BinaryTree.LC113PathSumII;
+package BinaryTree_and_BST.LC113PathSumII;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

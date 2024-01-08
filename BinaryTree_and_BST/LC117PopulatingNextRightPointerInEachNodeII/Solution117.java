@@ -1,4 +1,4 @@
-package BinaryTree.LC117PopulatingNextRightPointerInEachNodeII;
+package BinaryTree_and_BST.LC117PopulatingNextRightPointerInEachNodeII;
 
 public class Solution117 {
     // Definition for a Node.

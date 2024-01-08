@@ -1,4 +1,4 @@
-package BinaryTree.LC404SumOfLeftLeaves;
+package BinaryTree_and_BST.LC404SumOfLeftLeaves;
 
 public class Solution404 {
     public class TreeNode {

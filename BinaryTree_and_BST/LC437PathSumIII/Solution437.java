@@ -1,4 +1,4 @@
-package BinaryTree.LC437PathSumIII;
+package BinaryTree_and_BST.LC437PathSumIII;
 
 import java.util.HashMap;
 

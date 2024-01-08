@@ -1,4 +1,4 @@
-package BinaryTree.LC111MinHeightOfBinaryTree;
+package BinaryTree_and_BST.LC111MinHeightOfBinaryTree;
 
 import java.util.LinkedList;
 import java.util.Queue;

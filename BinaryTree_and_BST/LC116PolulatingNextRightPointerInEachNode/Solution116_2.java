@@ -1,4 +1,4 @@
-package BinaryTree.LC116PolulatingNextRightPointerInEachNode;
+package BinaryTree_and_BST.LC116PolulatingNextRightPointerInEachNode;
 
 public class Solution116_2 {
     // Definition for a Node.

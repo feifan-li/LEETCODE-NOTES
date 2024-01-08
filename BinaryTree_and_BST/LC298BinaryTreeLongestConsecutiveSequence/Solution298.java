@@ -1,4 +1,4 @@
-package BinaryTree.LC298BinaryTreeLongestConsecutiveSequence;
+package BinaryTree_and_BST.LC298BinaryTreeLongestConsecutiveSequence;
 
 public class Solution298 {
     public class TreeNode {

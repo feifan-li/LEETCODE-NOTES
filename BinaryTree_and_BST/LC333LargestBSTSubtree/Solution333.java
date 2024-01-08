@@ -1,4 +1,4 @@
-package BinaryTree.LC333LargestBSTSubtree;
+package BinaryTree_and_BST.LC333LargestBSTSubtree;
 
 public class Solution333 {
     public class TreeNode {

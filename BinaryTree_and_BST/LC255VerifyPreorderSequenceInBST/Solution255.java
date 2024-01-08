@@ -1,4 +1,4 @@
-package BinaryTree.LC255VerifyPreorderSequenceInBST;
+package BinaryTree_and_BST.LC255VerifyPreorderSequenceInBST;
 
 public class Solution255 {
     public boolean verifyPreorder(int[] preorder) {

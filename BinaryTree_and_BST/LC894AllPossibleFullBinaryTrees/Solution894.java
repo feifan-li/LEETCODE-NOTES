@@ -1,4 +1,4 @@
-package BinaryTree.LC894AllPossibleFullBinaryTrees;
+package BinaryTree_and_BST.LC894AllPossibleFullBinaryTrees;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package BinaryTree.LC101SymmetricTree;
+package BinaryTree_and_BST.LC101SymmetricTree;
 
 public class Solution101 {
     public static class TreeNode {

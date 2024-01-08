@@ -1,4 +1,4 @@
-package BinaryTree.LC226InvertBinaryTree;
+package BinaryTree_and_BST.LC226InvertBinaryTree;
 
 public class Solution226 {
      public class TreeNode {

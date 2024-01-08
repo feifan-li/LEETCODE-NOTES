@@ -1,4 +1,4 @@
-package BinaryTree.LC112PathSum;
+package BinaryTree_and_BST.LC112PathSum;
 
 public class Solution112 {
       public class TreeNode {

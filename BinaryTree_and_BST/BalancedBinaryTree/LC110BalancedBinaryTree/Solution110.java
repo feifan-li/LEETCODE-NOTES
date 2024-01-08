@@ -1,4 +1,4 @@
-package BinaryTree.BalancedBinaryTree.LC110BalancedBinaryTree;
+package BinaryTree_and_BST.BalancedBinaryTree.LC110BalancedBinaryTree;
 
 public class Solution110 {
       public class TreeNode {

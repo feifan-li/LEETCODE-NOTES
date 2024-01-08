@@ -1,4 +1,4 @@
-package BinaryTree.LC272ClosestBinarySearchTreeValueII;
+package BinaryTree_and_BST.LC272ClosestBinarySearchTreeValueII;
 
 import java.util.LinkedList;
 import java.util.List;

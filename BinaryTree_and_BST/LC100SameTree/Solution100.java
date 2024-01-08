@@ -1,4 +1,4 @@
-package BinaryTree.LC100SameTree;
+package BinaryTree_and_BST.LC100SameTree;
 
 public class Solution100 {
     public static class TreeNode {

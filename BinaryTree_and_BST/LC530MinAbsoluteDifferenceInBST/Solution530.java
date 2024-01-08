@@ -1,4 +1,4 @@
-package BinaryTree.LC530MinAbsoluteDifferenceInBST;
+package BinaryTree_and_BST.LC530MinAbsoluteDifferenceInBST;
 
 public class Solution530 {
     public class TreeNode {

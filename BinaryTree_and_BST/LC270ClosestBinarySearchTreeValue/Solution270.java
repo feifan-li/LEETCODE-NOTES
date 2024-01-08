@@ -1,4 +1,4 @@
-package BinaryTree.LC270ClosestBinarySearchTreeValue;
+package BinaryTree_and_BST.LC270ClosestBinarySearchTreeValue;
 
 public class Solution270 {
     public class TreeNode {

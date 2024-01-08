@@ -1,4 +1,4 @@
-package BinaryTree.LC95UniqueBinarySearchTreesII;
+package BinaryTree_and_BST.LC95UniqueBinarySearchTreesII;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package BinaryTree.LC255VerifyPreorderSequenceInBST;
+package BinaryTree_and_BST.LC255VerifyPreorderSequenceInBST;
 
 import java.util.Stack;
 

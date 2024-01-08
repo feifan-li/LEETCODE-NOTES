@@ -1,4 +1,4 @@
-package BinaryTree.LC156BinaryTreeUpsideDown;
+package BinaryTree_and_BST.LC156BinaryTreeUpsideDown;
 
 public class Solution156 {
     public class TreeNode {

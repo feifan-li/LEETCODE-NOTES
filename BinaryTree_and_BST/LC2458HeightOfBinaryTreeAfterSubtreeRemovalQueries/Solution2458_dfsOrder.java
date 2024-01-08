@@ -1,4 +1,4 @@
-package BinaryTree.LC2458HeightOfBinaryTreeAfterSubtreeRemovalQueries;
+package BinaryTree_and_BST.LC2458HeightOfBinaryTreeAfterSubtreeRemovalQueries;
 //我们把用DFS遍历树时， 首次进入该节点的时间称为 DFS 序
 //https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/description/
 public class Solution2458_dfsOrder {

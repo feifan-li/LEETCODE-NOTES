@@ -1,4 +1,4 @@
-package BinaryTree.LC652FindDuplicateSubTree;
+package BinaryTree_and_BST.LC652FindDuplicateSubTree;
 
 import java.util.HashMap;
 import java.util.LinkedList;

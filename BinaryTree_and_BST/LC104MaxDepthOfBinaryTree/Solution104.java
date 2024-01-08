@@ -1,4 +1,4 @@
-package BinaryTree.LC104MaxDepthOfBinaryTree;
+package BinaryTree_and_BST.LC104MaxDepthOfBinaryTree;
 
 public class Solution104 {
     public static class TreeNode {

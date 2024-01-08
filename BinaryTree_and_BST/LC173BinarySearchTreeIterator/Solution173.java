@@ -1,4 +1,4 @@
-package BinaryTree.LC173BinarySearchTreeIterator;
+package BinaryTree_and_BST.LC173BinarySearchTreeIterator;
 
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package BinaryTree.LC662MaxWidthOfBinaryTree;
+package BinaryTree_and_BST.LC662MaxWidthOfBinaryTree;
 
 import java.util.HashMap;
 import java.util.Map;

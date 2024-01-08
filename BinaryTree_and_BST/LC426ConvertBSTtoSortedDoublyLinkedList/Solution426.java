@@ -1,4 +1,4 @@
-package BinaryTree.LC426ConvertBSTtoSortedDoublyLinkedList;
+package BinaryTree_and_BST.LC426ConvertBSTtoSortedDoublyLinkedList;
 
 public class Solution426 {
     // Definition for a Node.

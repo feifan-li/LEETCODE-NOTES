@@ -1,4 +1,4 @@
-package BinaryTree.LC114FlattenBinaryTreeToLinkedList;
+package BinaryTree_and_BST.LC114FlattenBinaryTreeToLinkedList;
 
 public class Solution114 {
 

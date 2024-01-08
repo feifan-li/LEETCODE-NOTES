@@ -1,4 +1,4 @@
-package BinaryTree.LC285InorderSuccessorInBST;
+package BinaryTree_and_BST.LC285InorderSuccessorInBST;
 
 public class Solution285 {
     public class TreeNode {

@@ -1,4 +1,4 @@
-package BinaryTree.LC116PolulatingNextRightPointerInEachNode;
+package BinaryTree_and_BST.LC116PolulatingNextRightPointerInEachNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,4 +1,4 @@
-package BinaryTree.LC1372LongestZigZagPathInABinaryTree;
+package BinaryTree_and_BST.LC1372LongestZigZagPathInABinaryTree;
 
 public class Solution1372 {
     public class TreeNode {

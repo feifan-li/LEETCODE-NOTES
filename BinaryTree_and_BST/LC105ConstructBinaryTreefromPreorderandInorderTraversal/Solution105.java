@@ -1,4 +1,4 @@
-package BinaryTree.LC105ConstructBinaryTreefromPreorderandInorderTraversal;
+package BinaryTree_and_BST.LC105ConstructBinaryTreefromPreorderandInorderTraversal;
 
 import java.util.HashMap;
 
