@@ -1,4 +1,4 @@
-package DynamicProgramming.LC413ArithmeticSlices;
+package DynamicProgramming.ArithmeticSlices.LC413ArithmeticSlices_Subarray;
 
 public class Solution413 {
     public int numberOfArithmeticSlices(int[] nums) {

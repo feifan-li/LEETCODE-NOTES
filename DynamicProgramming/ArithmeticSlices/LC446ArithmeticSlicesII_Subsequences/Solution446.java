@@ -1,4 +1,4 @@
-package DynamicProgramming.LC446ArithmeticSlicesII_Subsequences;
+package DynamicProgramming.ArithmeticSlices.LC446ArithmeticSlicesII_Subsequences;
 
 import java.util.HashMap;
 
