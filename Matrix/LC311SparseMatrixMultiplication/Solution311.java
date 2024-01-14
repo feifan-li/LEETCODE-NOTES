@@ -1,4 +1,4 @@
-package LC311SparseMatrixMultiplication;
+package Matrix.LC311SparseMatrixMultiplication;
 
 public class Solution311 {
     public int[][] multiply(int[][] mat1, int[][] mat2) {

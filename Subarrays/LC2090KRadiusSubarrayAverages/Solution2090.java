@@ -1,4 +1,4 @@
-package LC2090KRadiusSubarrayAverages;
+package Subarrays.LC2090KRadiusSubarrayAverages;
 
 import java.util.Arrays;
 

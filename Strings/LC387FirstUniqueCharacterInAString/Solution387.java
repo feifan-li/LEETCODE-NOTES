@@ -1,4 +1,4 @@
-package LC387FirstUniqueCharacterInAString;
+package Strings.LC387FirstUniqueCharacterInAString;
 
 public class Solution387 {
     public int firstUniqChar(String s) {

@@ -1,4 +1,4 @@
-package LC2348NumberofZeroFilledSubarrays;
+package Subarrays.LC2348NumberofZeroFilledSubarrays;
 
 public class Solution2348 {
     //for an array filled with 0, suppose its length euqals n, then there're 1+...+n subarrays filled with 0

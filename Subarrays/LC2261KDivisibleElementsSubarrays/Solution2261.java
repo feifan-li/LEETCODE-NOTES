@@ -1,4 +1,4 @@
-package LC2261KDivisibleElementsSubarrays;
+package Subarrays.LC2261KDivisibleElementsSubarrays;
 
 import java.util.HashSet;
 
