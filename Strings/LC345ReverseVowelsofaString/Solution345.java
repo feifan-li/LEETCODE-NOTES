@@ -1,4 +1,4 @@
-package LC345ReverseVowelsofaString;
+package Strings.LC345ReverseVowelsofaString;
 
 public class Solution345 {
     public String reverseVowels(String s) {

@@ -1,4 +1,4 @@
-package LC1704DetermineIfStringHalvesAreAlike;
+package Strings.LC1704DetermineIfStringHalvesAreAlike;
 
 public class Solution1704 {
     public boolean halvesAreAlike(String s) {

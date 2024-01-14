@@ -1,4 +1,4 @@
-package LC1347MinimumNumberOfStepsToMakeTwoStringsAnagram;
+package Strings.LC1347MinimumNumberOfStepsToMakeTwoStringsAnagram;
 
 public class Solution1347 {
     public int minSteps(String s, String t) {

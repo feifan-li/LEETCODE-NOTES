@@ -1,4 +1,4 @@
-package LC1657DetermineIfTwoStringsAreClose;
+package Strings.LC1657DetermineIfTwoStringsAreClose;
 
 import java.util.Arrays;
 

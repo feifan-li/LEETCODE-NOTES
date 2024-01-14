@@ -1,4 +1,4 @@
-package LC2405OptimalPartitionOfString;
+package Greedy.LC2405OptimalPartitionOfString;
 
 import java.util.Arrays;
 

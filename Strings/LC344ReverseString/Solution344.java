@@ -1,4 +1,4 @@
-package LC344ReverseString;
+package Strings.LC344ReverseString;
 
 public class Solution344 {
     public void reverseString(char[] s) {

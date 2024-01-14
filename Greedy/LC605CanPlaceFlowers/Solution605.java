@@ -1,4 +1,4 @@
-package Greedy;
+package Greedy.LC605CanPlaceFlowers;
 
 public class Solution605 {
     public static boolean canPlaceFlowers(int[] f, int n) {

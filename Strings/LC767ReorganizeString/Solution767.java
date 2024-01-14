@@ -1,4 +1,4 @@
-package LC767ReorganizeString;
+package Strings.LC767ReorganizeString;
 
 import java.util.ArrayList;
 import java.util.Collections;
