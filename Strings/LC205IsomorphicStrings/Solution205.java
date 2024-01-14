@@ -1,4 +1,4 @@
-package LC205IsomorphicStrings;
+package Strings.LC205IsomorphicStrings;
 
 import java.util.HashMap;
 
