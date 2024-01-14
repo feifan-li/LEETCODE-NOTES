@@ -1,4 +1,4 @@
-package LC859BuddyStrings;
+package Strings.LC859BuddyStrings;
 
 public class Solution859 {
     public boolean buddyStrings(String s, String goal) {
