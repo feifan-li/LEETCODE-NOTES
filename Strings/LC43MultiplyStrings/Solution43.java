@@ -1,4 +1,4 @@
-package LC43MultiplyStrings;
+package Strings.LC43MultiplyStrings;
 
 public class Solution43 {
     public static String multiply(String num1, String num2) {

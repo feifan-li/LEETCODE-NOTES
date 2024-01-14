@@ -1,4 +1,4 @@
-package LC249GroupShiftedStrings;
+package Strings.LC249GroupShiftedStrings;
 
 import java.util.ArrayList;
 import java.util.HashMap;

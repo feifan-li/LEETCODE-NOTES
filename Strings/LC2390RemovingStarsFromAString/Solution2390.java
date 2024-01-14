@@ -1,4 +1,4 @@
-package LC2390RemovingStarsFromAString;
+package Strings.LC2390RemovingStarsFromAString;
 
 import java.util.Arrays;
 

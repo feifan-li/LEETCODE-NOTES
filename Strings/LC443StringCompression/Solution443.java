@@ -1,4 +1,4 @@
-package LC443StringCompression;
+package Strings.LC443StringCompression;
 
 public class Solution443 {
     public int compress(char[] chars) {
