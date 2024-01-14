@@ -1,4 +1,4 @@
-package LC885SpiralMatrixIII;
+package Matrix.LC885SpiralMatrixIII;
 
 import java.util.Arrays;
 
